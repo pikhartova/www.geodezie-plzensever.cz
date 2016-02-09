@@ -21,14 +21,16 @@ h3{
 	font-size: 40px;
 	text-indent:5px;
 	color: seashell;
-	box-shadow: grey 4px 6px 20px;
+	/*box-shadow: grey 4px 6px 20px;*/
 	border-top-right-radius: 20px;
 }
 h1{
-	text-shadow: grey 4px 6px 6px;
+	text-shadow: 0 0 1px black, grey 4px 6px 6px;
+	
 }
 
  h2 {
+	text-shadow: 0 0 1px white;
 	text-indent:5px;
 	font-size: 30px;
 	color:	black;
@@ -38,7 +40,8 @@ h1{
 	padding:0;
 	margin:10px;
 	font-size: 25px;
-	color:black;	
+	color:black;
+	box-shadow:none;	
 }
 p {
 	margin: 10 px;
@@ -141,16 +144,16 @@ a:active {
 .prvni,
 .druha,
 .treti{
-	opacity: 0.5; filter:alpha (opacity=50);
+	/*opacity: 0.5; filter:alpha (opacity=50);*/
+	
 	border-top-right-radius:20px;
-	background-color:white;
 	width: 180px;
 	height: 570px;
 	margin:0.5em;
     font-weight: bold;
 	text-align: center;
 	box-shadow: black 4px 6px 20px;
-	background: linear-gradient(white,black);
+	background: linear-gradient(rgba(255,255,255,0.7),black);
 }
 .footer1{
 	float: right;
