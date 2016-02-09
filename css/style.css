@@ -51,6 +51,12 @@ p {
 	padding: 5px;
 	color:none;
 }
+span{
+	white-space: nowrap;
+	text-shadow: 0 0 0.1px white;
+
+}
+
 article, 
 header, 
 nav{
@@ -99,6 +105,7 @@ footer3{
 	
 }
 footer{
+	line-height: 1.5em;
     font-weight: bold;
 	text-align: center;
 	box-shadow: black 4px 6px 20px;
@@ -109,17 +116,18 @@ footer{
 	opacity: 0.8; filter:alpha (opacity=0);
 }
 footer>*{
-	border: 1px solid red;
-	flex-grow: 5;
-	padding: 2em;
-	
+	border-right: 1px solid gray;
+	flex: 5;
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	
 }
 #kontakty{
 	
 	color: grey;
-	flex-grow: 1;
-	padding: 2em;
+	flex: 1;
+	padding: 3em;
 	
 	
 	
