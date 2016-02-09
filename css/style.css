@@ -12,6 +12,7 @@ body {
 	border:0px;
 	padding: 0px;
 	background-color: none;
+	font-family: Verdana, sans-serif;
 }
 h1,
 h2,
@@ -46,7 +47,7 @@ h1{
 p {
 	margin: 10 px;
 	text-align: center;
-	font-family: Verdana, sans-serif;
+	
 	padding: 5px;
 	color:none;
 }
@@ -75,10 +76,12 @@ header h1{
 	
 	
 }
+}
 
 footer1,
 footer2,
 footer3{
+	
 	
 }
 
@@ -90,29 +93,34 @@ footer3{
 	
 }
 #info>*{
-	flex-grow: 1;
+	flex-grow: 2;
 	padding: 0.25em;
 	
 	
 }
-#footer{
+footer{
+    font-weight: bold;
+	text-align: center;
+	box-shadow: black 4px 6px 20px;
 	display: flex;
 	border-top: 2px solid #CCCC66;
 	color:#f0fff0;
 	background-color:black;
 	opacity: 0.8; filter:alpha (opacity=0);
 }
-#footer>*{
-	flex-grow: 1;
-	padding: 0.25em;
+footer>*{
+	border: 1px solid red;
+	flex-grow: 5;
+	padding: 2em;
 	
 	
 }
 #kontakty{
+	
+	color: grey;
+	flex-grow: 1;
 	padding: 2em;
-	margin: 0.5em;
-	text-align:center;
-	color: seashell;
+	
 	
 	
 }
@@ -128,7 +136,7 @@ footer3{
 }
 
 a:link, a:visited {
-	color:#2f4f4f;
+	color:seashell;
 }
 
 a:hover {
@@ -145,7 +153,6 @@ a:active {
 .druha,
 .treti{
 	/*opacity: 0.5; filter:alpha (opacity=50);*/
-	
 	border-top-right-radius:20px;
 	width: 180px;
 	height: 570px;
@@ -155,19 +162,7 @@ a:active {
 	box-shadow: black 4px 6px 20px;
 	background: linear-gradient(rgba(255,255,255,0.7),black);
 }
-.footer1{
-	float: right;
-		
-	
-}
-.footer2{
-		
-	
-	
 
-}
-.footer3{
-	float: left;
 	
 
 }
