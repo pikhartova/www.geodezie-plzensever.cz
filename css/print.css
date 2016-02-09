@@ -1,0 +1,9 @@
+@charset "windows-1250";
+/* CSS Document */ 
+ 
+
+
+
+.vlajky, .menu{
+	display: none;
+}

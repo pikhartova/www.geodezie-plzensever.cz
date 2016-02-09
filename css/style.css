@@ -1,0 +1,170 @@
+
+
+
+body {
+	background-image: url("../img/fotka_upravena.jpg");
+	background-size: 100%, 100%;
+	background-position: center center;
+	background-color:  	#556b2f;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin:0px;
+	border:0px;
+	padding: 0px;
+	background-color: none;
+}
+h1,
+h2,
+h3{
+	font-family: Verdana, Geneva;
+	font-variant: small-caps;
+	font-size: 40px;
+	text-indent:5px;
+	color: seashell;
+	box-shadow: grey 4px 6px 20px;
+	border-top-right-radius: 20px;
+}
+h1{
+	text-shadow: grey 4px 6px 6px;
+}
+
+ h2 {
+	text-indent:5px;
+	font-size: 30px;
+	color:	black;
+	border-top-right-radius: 0px;
+}
+ h3{
+	padding:0;
+	margin:10px;
+	font-size: 25px;
+	color:black;	
+}
+p {
+	margin: 10 px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	padding: 5px;
+	color:none;
+}
+article, 
+header, 
+nav{
+	max-width: 800px;
+	margin: auto;
+	
+	
+
+
+}
+header img{
+	margin: 1em;
+	height: 1em;
+	float: right;
+
+}
+header img:hover{
+	transform: scale(1.3);
+	
+}
+header h1{
+	padding-top: 2em;
+	
+	
+}
+
+footer1,
+footer2,
+footer3{
+	
+}
+
+/* skladaní elementů - flex box na google*/
+#info{
+	display: flex;
+	
+	
+	
+}
+#info>*{
+	flex-grow: 1;
+	padding: 0.25em;
+	
+	
+}
+#footer{
+	display: flex;
+	border-top: 2px solid #CCCC66;
+	color:#f0fff0;
+	background-color:black;
+	opacity: 0.8; filter:alpha (opacity=0);
+}
+#footer>*{
+	flex-grow: 1;
+	padding: 0.25em;
+	
+	
+}
+#kontakty{
+	padding: 2em;
+	margin: 0.5em;
+	text-align:center;
+	color: seashell;
+	
+	
+}
+#omne{
+	margin: 0 px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	padding: 5px;
+	text-shadow: white 1px 1px 40px;
+	text-indent: none;
+
+	
+}
+
+a:link, a:visited {
+	color:#2f4f4f;
+}
+
+a:hover {
+	color: orange;
+	text-decoration: none;
+	
+}
+
+a:active {
+	color: red;
+	text-decoration: none;
+}
+.prvni,
+.druha,
+.treti{
+	opacity: 0.5; filter:alpha (opacity=50);
+	border-top-right-radius:20px;
+	background-color:white;
+	width: 180px;
+	height: 570px;
+	margin:0.5em;
+    font-weight: bold;
+	text-align: center;
+	box-shadow: black 4px 6px 20px;
+	background: linear-gradient(white,black);
+}
+.footer1{
+	float: right;
+		
+	
+}
+.footer2{
+		
+	
+	
+
+}
+.footer3{
+	float: left;
+	
+
+}
